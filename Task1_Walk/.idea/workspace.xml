@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99c99f63-0194-425a-b963-48c97ffa5f39" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/walk/WalkException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test01_oneEmptyFile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test01_oneEmptyFile.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test01_oneEmptyFile/4VTLTjIVw4LEsZydld09iGQNi7yGoQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles/5Xr3pHA7NshUACcLZJpiYhtkTuAExX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles/77pjXGWBdMKx77Bh3RlQzBX0eiu70n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles/8CSVQDX3zuFw9b76qInYVCjNydyyfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles/Egm0yMtOPYGDNHELJcPO44sVWYGR2p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles/IOv9jdV7oKhpzTAp7mzvbkx7sXulVD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles/iABUiurQqPpJBlTTMZH5gB7w0u1ljL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles/jefBuAquqOOC58UTlqSrkrwuXbg0ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles/sm9m6nFbDGyUCY89pcVnrBFH3UJgyf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles/ttAcStBezgRhNz8k7VPFHOe7amPEcM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test02_tenEmptyFiles/uB1ZHzTwYW1veQKJVz7d9mgJsE71LW" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test03_missingFiles.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test03_missingFiles.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test03_missingFiles/5BmhsIvjnFdI86jUvCSaZeHIWR8XTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test03_missingFiles/8z3tkp4q1BxxH20ZNP2YTM1NlC2DVT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test03_missingFiles/Db7nnXCXH3YnGECoZh04RMlNOGuTYv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test04_errorReading.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test04_errorReading.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test04_errorReading/7oz4hAxnxsdmNpnJWmfevvx6zBqVH3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test04_errorReading/cHvZMdWL84GD6vSnnlP7FddEzD5FsR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test04_errorReading/vCCfS1Q0XMq7l3I5rS0Yg7sRpJP17R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles/1AcQpq17XcBHtBKmN6sINq1Be3eNbG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles/4kHisZcSPaFuEm3PACLtxzkt9d1fU4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles/9uKpRWtooh77T2TWmYQehs5p9WVhbF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles/GnawupXk2sCcMrIbdWdEx8j9xYM62e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles/OMYatKmYiUNNQ1RV0Llh97x0bCIo9X" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles/ZccG4auUpumuE2jWugKbbll0oyqVBb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles/jSO7Jevsfgc5z7lpWCcZCSnYgTTMfv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles/merowNLernryqAsrUabx5YrM3URaPB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles/toHBqAYIa1oR7kjrnYjjcH2zGVNb27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test05_smallRandomFiles/x1oQ9CNAXpBvIDNjOGGLiOzsPJh5rz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles/23o5JqEIOU8pDow895hflJrd3qbRbB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles/LVfAoBEginwND2FAkqTOPYzB69WBHO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles/NI6ogOnfm2daugEWGeRRORtvTKGSdP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles/RT6ZxedhzCmgCVrZw7TMfjPQyEMvAT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles/RqYUugZBCY08zhLWUlOB3yiFZdSuCq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles/fkKdYIR9zavTK9tyrd3aOFUWksvjUc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles/nfgPt5dfVePO4Mxz8VO4OFDzZF1bcn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles/syOAFikrYBf4vQVPInpJ5movzfzom1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles/wzJDBUlk9CuselAuhvyFYbBsvS7FXP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test06_mediumRandomFiles/xC8XaKhPlJyoFBREx8LjAUYBblihnc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles/8Q9URWZFjuaWLSzHUhRgCKDA6QT4Q4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles/8sodJ1hqpiyai2FnNKGXnaxfuKgiuO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles/92M9mhjQOFtnrRvUSXj9eIzoqxLBTZ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles/9jLx7HBVJvEZ7moT1kAlkMpKPUcnS8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles/I4YUepp9fgRYPj7Hm3EM9dm25N9WyR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles/J3uBJdfv2eS92XClQgOzz644FibZrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles/P1HVPEAawLrihvU8VDksne3tQyGe9s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles/pmJAKxcnpZ2eNjnSNLY3rWtFwnH7Rx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles/qpr3oVtT7pfQ8qaw8uOXDHSoD5Ydju" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test07_largeRandomFiles/tUIwvoqAFThyVE2OfsOTMK3NzvlFmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/你你的程問國持你請請支序程問支問的問中程序序國國程支的中序程" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/你序持持中你中國的支序問持中序程你請問請支序支序問程程持序問" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/你程程請中國持問序請支中支中請問請請程問持國中請中持支請請的" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/問問問你持中問持中你序國國你請國中程持問序你序問程支的持你程" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/序中中支序序國的支中持的問程請的的的國國中請問支的支程請請你" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/序你持持國請中請程序國的持你問中問序請序中程的支國問你問中問" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/序國支請你請國國的國的持問支國程程你支序的程的你的請中序支程" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/持請請的支中序支程問持國程中問請持序程序的國序支持序的支問支" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/支中請持請的序問國序序問持請國支程中的請支國序問問請的你問持" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/程國持程國中程問的序國程序序國你中持中國國程的程國的問國程問" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test11_invalidOutput" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test12_singleArgument" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test13_veryLargeFile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test13_veryLargeFile.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test13_veryLargeFile/ACxG1iM5JeKs7po5xtTNloqMFb8KoJ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test13_veryLargeFile/TyfQbRKn8AXVs7CzdMYwoyeMonIWr7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test13_veryLargeFile/你程你程問中程你持程持持請支中序中的的問問程的程的國持程程請" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test14_invalidFiles.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__Test__Walk__/test14_invalidFiles.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aM76BKCw4RIgvP5r9DSkfJT7k5XUHB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/junit-4.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyZtWdm91zd6MMWMCHQL6EX318hT2J" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qo82XsesjGrHgY2bCPdlvm1gbhNAmK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/walk/WalkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/walk/WalkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/walk/Walk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/walk/Walk.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/walk/WalkTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/walk/WalkEception.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/walk/WalkException.java" />
+        <option value="$PROJECT_DIR$/test/walk.cmd" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/walk/Walk.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="java-advanced-2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Walk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Walk" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Walk" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Walk" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Walk" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+              <item name="dolgikh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Walk" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+              <item name="dolgikh" type="462c0819:PsiDirectoryNode" />
+              <item name="walk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="walk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="walk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="currr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currr" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550823760952" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArraySet" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Denis\IdeaProjects\JavaHWS\currr\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Denis\IdeaProjects\JavaHWS\currr" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Walk">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ifmo.rain.dolgikh.Main" />
+      <module name="currr" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Walk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ifmo.rain.dolgikh.walk.Walk" />
+      <module name="Walk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ifmo.rain.dolgikh.walk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Walk" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Walk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99c99f63-0194-425a-b963-48c97ffa5f39" name="Default" comment="" />
+      <created>1550214362579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550214362579</updated>
+      <workItem from="1550214366173" duration="853000" />
+      <workItem from="1550216381894" duration="968000" />
+      <workItem from="1550218236016" duration="881000" />
+      <workItem from="1550662767304" duration="1836000" />
+      <workItem from="1550665279193" duration="9929000" />
+      <workItem from="1550680086489" duration="8000" />
+      <workItem from="1550760144108" duration="104000" />
+      <workItem from="1550818615237" duration="3554000" />
+      <workItem from="1551404356269" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18212000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.43954247" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.16503268" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32026145" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.43954247" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.16503268" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32026145" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/Main.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/Walk/ru/ifmo/rain/dolgikh/walk/Walk.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__Test__Walk__/test08_chineseSupport/你序持持中你中國的支序問持中序程你請問請支序支序問程程持序問">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="75" column="98" selection-start-line="75" selection-start-column="98" selection-end-line="75" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__Test__Walk__/test13_veryLargeFile.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__Test__Walk__/test14_invalidFiles.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__Test__Walk__/test14_invalidFiles.in">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__Test__Walk__/test03_missingFiles.in">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__Test__Walk__/test03_missingFiles.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__Test__Walk__/test04_errorReading.in">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/kgeorgiy/java/advanced/base/CG.class" />
+    <entry file="file://$PROJECT_DIR$/CertificateGenerator.class" />
+    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/walk/WalkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="189" column="11" selection-start-line="189" selection-start-column="11" selection-end-line="189" selection-end-column="11" />
+          <folding>
+            <element signature="e#3889#3890#0" expanded="true" />
+            <element signature="e#3932#3933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/base/CG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/base/BaseTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/walk/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/walk/WalkException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/walk/Walk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/walk.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Walk</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>hamcrest-core-1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

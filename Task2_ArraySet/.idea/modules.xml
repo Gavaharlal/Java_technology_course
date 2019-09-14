@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArraySet.iml" filepath="$PROJECT_DIR$/ArraySet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/info.kgeorgiy.java.advanced.arrayset/info.kgeorgiy.java.advanced.arrayset.iml" filepath="$PROJECT_DIR$/info.kgeorgiy.java.advanced.arrayset/info.kgeorgiy.java.advanced.arrayset.iml" />
+      <module fileurl="file://$PROJECT_DIR$/info.kgeorgiy.java.advanced.base/info.kgeorgiy.java.advanced.base.iml" filepath="$PROJECT_DIR$/info.kgeorgiy.java.advanced.base/info.kgeorgiy.java.advanced.base.iml" />
+    </modules>
+  </component>
+</project>

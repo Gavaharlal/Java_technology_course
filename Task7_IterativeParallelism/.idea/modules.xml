@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IterativeParallelism.iml" filepath="$PROJECT_DIR$/IterativeParallelism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info.kgeorgiy.java.advanced.base.iml" filepath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info.kgeorgiy.java.advanced.base.iml" group="info" />
+      <module fileurl="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.concurrent/info.kgeorgiy.java.advanced.concurrent.iml" filepath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.concurrent/info.kgeorgiy.java.advanced.concurrent.iml" group="info" />
+      <module fileurl="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.mapper/info.kgeorgiy.java.advanced.mapper.iml" filepath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.mapper/info.kgeorgiy.java.advanced.mapper.iml" group="info" />
+    </modules>
+  </component>
+</project>

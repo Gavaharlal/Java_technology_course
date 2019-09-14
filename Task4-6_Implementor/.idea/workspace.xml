@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72ca2d49-7e46-44c5-97ae-8df78e3847d5" name="Default Changelist" comment="int">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Denis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/info_kgeorgiy_java_advanced_implementor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/quickcheck_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/implementor/Implementor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/info.kgeorgiy.java.advanced.arrayset.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/info.kgeorgiy.java.advanced.base.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/info.kgeorgiy.java.advanced.concurrent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/info.kgeorgiy.java.advanced.student.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/info.kgeorgiy.java.advanced.walk.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.arrayset/info/kgeorgiy/java/advanced/arrayset/NavigableSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.arrayset/info/kgeorgiy/java/advanced/arrayset/SortedSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.arrayset/info/kgeorgiy/java/advanced/arrayset/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.arrayset/info/kgeorgiy/java/advanced/arrayset/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.arrayset/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info/kgeorgiy/java/advanced/base/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info/kgeorgiy/java/advanced/base/BaseTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info/kgeorgiy/java/advanced/base/CG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info/kgeorgiy/java/advanced/base/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.concurrent/info/kgeorgiy/java/advanced/concurrent/BaseIPTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.concurrent/info/kgeorgiy/java/advanced/concurrent/ListIP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.concurrent/info/kgeorgiy/java/advanced/concurrent/ListIPTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.concurrent/info/kgeorgiy/java/advanced/concurrent/ScalarIP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.concurrent/info/kgeorgiy/java/advanced/concurrent/ScalarIPTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.concurrent/info/kgeorgiy/java/advanced/concurrent/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.concurrent/info/kgeorgiy/java/advanced/concurrent/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.concurrent/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/BaseImplementorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/ClassImplementorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/ClassJarImplementorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/Impler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/ImplerException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/InterfaceImplementorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/InterfaceJarImplementorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/JarImpler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/classes/AbstractClassWithInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/classes/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/classes/standard/ClassLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/classes/standard/IIOException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/classes/standard/IIOImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/classes/standard/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/classes/standard/RMIServerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/classes/standard/RelationNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/classes/standard/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/interfaces/InterfaceWithDefaultMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/interfaces/InterfaceWithStaticMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/interfaces/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/interfaces/standard/Accessible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/interfaces/standard/Descriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/interfaces/standard/RandomAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/interfaces/standard/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/classes/ClassWithPackagePrivateConstructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/classes/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/classes/standard/BMPImageWriteParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/classes/standard/FileCacheImageInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/classes/standard/ImmutableDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/classes/standard/LdapReferralException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/classes/standard/RMIIIOPServerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/classes/standard/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/interfaces/InterfaceWithoutMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/interfaces/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/interfaces/standard/AccessibleAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/interfaces/standard/CachedRowSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/interfaces/standard/DataInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/interfaces/standard/DataOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/interfaces/standard/SDeprecated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/interfaces/standard/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/lang/Arabic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/lang/Greek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/lang/Hebrew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/lang/Russian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/lang/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/full/lang/ПриветInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/AdvancedStudentGroupQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/AdvancedStudentGroupQueryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/FullStudentGroupQueryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/FullStudentQueryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentGroupQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentGroupQueryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentQueryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.walk/info/kgeorgiy/java/advanced/walk/RecursiveWalkTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.walk/info/kgeorgiy/java/advanced/walk/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.walk/info/kgeorgiy/java/advanced/walk/WalkTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.walk/info/kgeorgiy/java/advanced/walk/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.walk/info/kgeorgiy/java/advanced/walk/samples/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.walk/info/kgeorgiy/java/advanced/walk/samples/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.walk/info/kgeorgiy/java/advanced/walk/samples/123" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.walk/info/kgeorgiy/java/advanced/walk/samples/1234" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.walk/info/kgeorgiy/java/advanced/walk/samples/binary" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.walk/module-info.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/implementor/Implementor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="149" column="47" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testingDirectory/info/kgeorgiy/java/advanced/implementor/JarImpler.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testingDirectory/info/kgeorgiy/java/advanced/implementor/JarImpler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/Tester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/InterfaceImplementorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/InterfaceJarImplementorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/artifacts/info.kgeorgiy.java.advanced.implementor.jar!/info/kgeorgiy/java/advanced/implementor/JarImpler.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/Impler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/JarImpler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/artifacts/info.kgeorgiy.java.advanced.implementor.jar!/info/kgeorgiy/java/advanced/implementor/Impler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>e</find>
+      <find>modi</find>
+      <find>Impler</find>
+      <find>tt</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/Tester.java" />
+        <option value="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/module-info.java" />
+        <option value="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/InterfaceJarImplementorTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/implementor/Main.java" />
+        <option value="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/Impler.java" />
+        <option value="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/JarImpler.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/implementor/Implementor.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="info.kgeorgiy.java.advanced.implementor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="info.kgeorgiy.java.advanced.implementor" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="info.kgeorgiy.java.advanced.implementor" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="kgeorgiy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="info.kgeorgiy.java.advanced.implementor" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="kgeorgiy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="info.kgeorgiy.java.advanced.implementor" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="kgeorgiy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="info.kgeorgiy.java.advanced.implementor" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="kgeorgiy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="implementor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="info.kgeorgiy.java.advanced.implementor" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="kgeorgiy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="implementor" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="implementor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="kgeorgiy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="kgeorgiy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="kgeorgiy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="kgeorgiy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="implementor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+              <item name="dolgikh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled456" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled456" type="462c0819:PsiDirectoryNode" />
+              <item name="testingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+              <item name="dolgikh" type="462c0819:PsiDirectoryNode" />
+              <item name="implementor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553243742437" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37241378" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Implementor">
+    <configuration name="Implementor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ifmo.rain.dolgikh.implementor.Implementor" />
+      <module name="untitled456" />
+      <option name="PROGRAM_PARAMETERS" value="ru.ifmo.rain.dolgikh.implementor.Implementor kekeke" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ifmo.rain.dolgikh.implementor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ifmo.rain.dolgikh.implementor.Main" />
+      <module name="untitled456" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="info.kgeorgiy.java.advanced.implementor.Tester" />
+      <module name="untitled456" />
+      <option name="PROGRAM_PARAMETERS" value="interface ru.ifmo.rain.dolgikh.implementor.Implementor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.kgeorgiy.java.advanced.implementor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in info.kgeorgiy.java.advanced.implementor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="info.kgeorgiy.java.advanced.implementor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Implementor" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Tester" />
+      <item itemvalue="JUnit.All in info.kgeorgiy.java.advanced.implementor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Implementor" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Tester" />
+        <item itemvalue="JUnit.All in info.kgeorgiy.java.advanced.implementor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72ca2d49-7e46-44c5-97ae-8df78e3847d5" name="Default Changelist" comment="" />
+      <created>1552481761765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552481761765</updated>
+      <workItem from="1552481765797" duration="4258000" />
+      <workItem from="1552490588960" duration="3656000" />
+      <workItem from="1552495061130" duration="1099000" />
+      <workItem from="1552573866956" duration="13277000" />
+      <workItem from="1552622498386" duration="4175000" />
+      <workItem from="1553188416488" duration="2221000" />
+      <workItem from="1553220134702" duration="9714000" />
+      <workItem from="1553584338944" duration="61000" />
+      <workItem from="1555007445717" duration="7685000" />
+      <workItem from="1555054118486" duration="2481000" />
+      <workItem from="1555337776325" duration="19000" />
+      <workItem from="1555649493438" duration="2276000" />
+      <workItem from="1555843011396" duration="665000" />
+      <workItem from="1557471628064" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_info_kgeorgiy_java_advanced_implementor - 2019.03.13 at 19h 39m 12s.xml">
+      <configuration name="All in info.kgeorgiy.java.advanced.implementor" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="52185000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.42574257" visible="true" weight="0.2655068" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.57425743" side_tool="true" visible="true" weight="0.2655068" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.25816995" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1633987" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" visible="true" weight="0.1748366" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32843137" />
+      <window_info anchor="bottom" id="Log Viewer" order="14" />
+      <window_info anchor="bottom" id="Tool Output" order="15" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="16" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="17" />
+      <window_info anchor="bottom" id="SOQL Query" order="18" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="int" />
+    <option name="LAST_COMMIT_MESSAGE" value="int" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testingDirectory/info/kgeorgiy/java/advanced/implementor/Impler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info/kgeorgiy/java/advanced/base/CG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info/kgeorgiy/java/advanced/base/BaseTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info/kgeorgiy/java/advanced/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/reflect/Executable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="263" column="26" selection-start-line="263" selection-start-column="26" selection-end-line="263" selection-end-column="26" />
+          <folding>
+            <element signature="e#9456#9457#0" expanded="true" />
+            <element signature="e#9490#9491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info.kgeorgiy.java.advanced.implementor.iml" />
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/interfaces/standard/Descriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867">
+          <caret line="124" column="22" lean-forward="true" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="3872" column="31" selection-start-line="3872" selection-start-column="31" selection-end-line="3872" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="366" column="53" selection-start-line="366" selection-start-column="53" selection-end-line="366" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/module-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/basic/interfaces/standard/Accessible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Package.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+          <folding>
+            <element signature="e#4939#4940#0" expanded="true" />
+            <element signature="e#4975#4976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/ImplerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/ClassJarImplementorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/ClassImplementorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/implementor/Main.java" />
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/BaseImplementorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.compiler/javax/tools/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/dolgikh/implementor/Implementor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="149" column="47" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testingDirectory/info/kgeorgiy/java/advanced/implementor/JarImpler.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testingDirectory/info/kgeorgiy/java/advanced/implementor/JarImpler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/InterfaceImplementorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/InterfaceJarImplementorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/artifacts/info.kgeorgiy.java.advanced.implementor.jar!/info/kgeorgiy/java/advanced/implementor/JarImpler.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/Impler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/JarImpler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/artifacts/info.kgeorgiy.java.advanced.implementor.jar!/info/kgeorgiy/java/advanced/implementor/Impler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>info.kgeorgiy.java.advanced.implementor|info</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>hamcrest-core-1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

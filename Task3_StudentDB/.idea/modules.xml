@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/STD.iml" filepath="$PROJECT_DIR$/STD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info.kgeorgiy.java.advanced.base.iml" filepath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.base/info.kgeorgiy.java.advanced.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info.kgeorgiy.java.advanced.student.iml" filepath="$PROJECT_DIR$/modules/info.kgeorgiy.java.advanced.student/info.kgeorgiy.java.advanced.student.iml" />
+    </modules>
+  </component>
+</project>

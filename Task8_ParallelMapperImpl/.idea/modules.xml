@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ParallelMapperImpl.iml" filepath="$PROJECT_DIR$/ParallelMapperImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../untitled456/modules/info.kgeorgiy.java.advanced.base/info.kgeorgiy.java.advanced.base.iml" filepath="$PROJECT_DIR$/../../untitled456/modules/info.kgeorgiy.java.advanced.base/info.kgeorgiy.java.advanced.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../untitled456/modules/info.kgeorgiy.java.advanced.mapper/info.kgeorgiy.java.advanced.mapper.iml" filepath="$PROJECT_DIR$/../../untitled456/modules/info.kgeorgiy.java.advanced.mapper/info.kgeorgiy.java.advanced.mapper.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="ArraySet">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/quickcheck-0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/junit-4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jsoup-1.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/info.kgeorgiy.java.advanced.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/info.kgeorgiy.java.advanced.arrayset.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
